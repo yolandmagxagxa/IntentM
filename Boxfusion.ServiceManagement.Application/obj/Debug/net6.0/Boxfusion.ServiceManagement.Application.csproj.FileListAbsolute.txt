@@ -1,0 +1,12 @@
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\bin\Debug\net6.0\Boxfusion.ServiceManagement.Application.deps.json
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\bin\Debug\net6.0\Boxfusion.ServiceManagement.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\bin\Debug\net6.0\Boxfusion.ServiceManagement.Application.pdb
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\Boxfusion.ServiceManagement.Application.csproj.AssemblyReference.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\Boxfusion.ServiceManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\Boxfusion.ServiceManagement.Application.AssemblyInfoInputs.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\Boxfusion.ServiceManagement.Application.AssemblyInfo.cs
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\Boxfusion.ServiceManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\Boxfusion.ServiceManagement.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\refint\Boxfusion.ServiceManagement.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\Boxfusion.ServiceManagement.Application.pdb
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ServiceManagement.Application\obj\Debug\net6.0\ref\Boxfusion.ServiceManagement.Application.dll

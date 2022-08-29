@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F9L7D2rB2xdsb//ZKM7f1TtemvpTf1WochibkcMpNJBD+ToF9L/ZWIeR4HSytCMHAhpOb4iCesmgse6yRv6nhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yolandmagxagxa\\source\\repos\\DEP\\Boxfusion.Dep\\Boxfusion.ServiceManagement.Application\\Boxfusion.ServiceManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yolandmagxagxa\\.nuget\\packages\\intent.roslynweaver.attributes\\2.0.1\\intent.roslynweaver.attributes.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

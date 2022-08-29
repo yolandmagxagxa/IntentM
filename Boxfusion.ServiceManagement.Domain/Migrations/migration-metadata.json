@@ -1,0 +1,491 @@
+[
+  {
+    "Id": "09a1fc83-0714-433d-8444-a19942b49fe3",
+    "ClassName": "CaseRouting",
+    "TableName": "SM_CaseRoutings",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "6e15b5c6-594f-474a-a627-1eef5c12e2d5",
+        "Name": "OrderIndex",
+        "TableName": "CaseRouting",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "fe868364-6ac9-4e7b-9730-476b2186dc84",
+        "Name": "AssignStepRequired",
+        "TableName": "CaseRouting",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "398f2848-dc52-4ca7-8886-e17bf46336d3",
+        "Name": "CanCaptureExternalRefNo",
+        "TableName": "CaseRouting",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "ed3c09b1-6d6d-4f61-ad4d-20d66d937616",
+        "Name": "CanCloseToResolve",
+        "TableName": "CaseRouting",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "3e1b32d7-0579-4c2d-9181-a12d19fe7cda",
+        "Name": "CaseCategory",
+        "TableName": "CaseRouting",
+        "TypeName": "CaseCategory",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "23a6ea61-0056-4469-ae01-6bd691e5c891",
+        "Name": "ResolutionMethod",
+        "TableName": "CaseRouting",
+        "TypeName": "ResolutionMethod",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "e36a2092-1cd5-433b-859f-15ba80f8706a",
+        "Name": "CaseTypeId",
+        "MasterTable": "SM_CaseTypes"
+      },
+      {
+        "Id": "9a4727cd-dfe8-4bc9-91e7-206c4279ab31",
+        "Name": "AreaLevel1Id",
+        "MasterTable": "Core_Areas"
+      },
+      {
+        "Id": "e86f6221-f1bf-4f41-9339-30c9df415292",
+        "Name": "AreaLevel2Id",
+        "MasterTable": "Core_Areas"
+      },
+      {
+        "Id": "5bc6c114-c1df-4243-bc65-08f544fc16b2",
+        "Name": "AreaLevel3Id",
+        "MasterTable": "Core_Areas"
+      },
+      {
+        "Id": "f0c9f65f-002e-4265-85f1-a80959199557",
+        "Name": "AreaLevel4Id",
+        "MasterTable": "Core_Areas"
+      },
+      {
+        "Id": "ef3b2507-b3b5-4a30-9388-74f625bf5bcf",
+        "Name": "DefaultOrganisationAssignedId",
+        "MasterTable": "Core_Organisations"
+      },
+      {
+        "Id": "8c1a41e2-cce0-4b25-b778-2cf8a7cbf9ab",
+        "Name": "FacilityId",
+        "MasterTable": "Core_Facilities"
+      },
+      {
+        "Id": "78c80182-f8d5-44b4-ada5-d577768c0bbe",
+        "Name": "SlaPolicyId",
+        "MasterTable": "SM_SLAPolicies"
+      },
+      {
+        "Id": "b7b0d699-5567-4dc6-95ef-6daa67c69c1f",
+        "Name": "DefaulPersonAssignedId",
+        "MasterTable": "Core_Persons"
+      }
+    ]
+  },
+  {
+    "Id": "16714fe8-55ef-45c3-80db-bfda53665fc2",
+    "ClassName": "CaseType",
+    "TableName": "SM_CaseTypes",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "fee003e2-bf04-4b59-9406-f525bb34e488",
+        "Name": "OrderIndex",
+        "TableName": "CaseType",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "a761256e-5119-4f0a-9796-ecdf605ca85f",
+        "Name": "HintText",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "fb993daf-d64f-4f18-9388-2dc85877c141",
+        "Name": "IsPublicField",
+        "TableName": "CaseType",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "0c50aaa9-830e-487f-975a-5c9c34b668be",
+        "Name": "Name",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "7fac43bb-4eb7-4feb-9b32-b6fb5f26a646",
+        "Name": "IsContactDetailsRequired",
+        "TableName": "CaseType",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "b9db26b4-6b66-4ea4-ade2-1b539f01f8e8",
+        "Name": "ExtSysId",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "354a4265-82e7-4478-bf77-899c64816edf",
+        "Name": "ExtSysSource",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "b4e6538c-4571-47c8-a68f-7ab2724ea2c2",
+        "Name": "MarketUrl",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "952aae35-0e45-4cd9-8f57-10863d7a6937",
+        "Name": "IsPublicFieldDefault",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "a66a003f-7bac-4270-9819-b0c8a8fc1030",
+        "Name": "LastUpdatedTimestamp",
+        "TableName": "CaseType",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "8f5a8bc7-176b-4698-a0d9-2ae83de6ab79",
+        "Name": "BackendCreateForm",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "bb88bed9-7d0f-4271-a913-4895defe506f",
+        "Name": "BackendDetailsForm",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "95ee19cf-847c-4176-a963-9834e7350ede",
+        "Name": "MobileCreateForm",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "bbadb409-b5ed-4a1d-9607-558d9497ec24",
+        "Name": "MobileDetailsForm",
+        "TableName": "CaseType",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "5afbf3e1-cf70-4682-bbc7-06df3f36e7c1",
+        "Name": "Flags",
+        "TableName": "CaseType",
+        "TypeName": "CaseFlag",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "1371f52e-9806-443b-9187-83634dd08b84",
+        "Name": "DefaultPriority",
+        "TableName": "CaseType",
+        "TypeName": "Priority",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "d5ae3b25-cd89-4b47-854c-2dfd44966d8d",
+        "Name": "Category",
+        "TableName": "CaseType",
+        "TypeName": "CaseCategory",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "b1590e6c-4b7f-445e-aa2f-3e945443df92",
+        "Name": "SubCategory",
+        "TableName": "CaseType",
+        "TypeName": "CaseSubCategory",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "37ae7a1d-005e-4edc-a56d-b9853016df0a",
+        "Name": "ResponsibleOrganisationId",
+        "MasterTable": "Core_Organisations"
+      },
+      {
+        "Id": "7bb81705-38d4-41e3-b53b-3511ea49ad08",
+        "Name": "LastUpdatedUserId",
+        "MasterTable": "Core_Persons"
+      }
+    ]
+  },
+  {
+    "Id": "dac37337-bb5c-40e4-b6b7-1a1b859f1541",
+    "ClassName": "EscalationRule",
+    "TableName": "SM_EscalationRules",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "d5a82bc1-7c72-4d62-86fc-2d7f37ab322b",
+        "Name": "AssignmentModel",
+        "TableName": "EscalationRule",
+        "TypeName": "AssignmentModel",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "3590f179-5edd-4865-bdb7-48a7d0962962",
+        "Name": "EscalationTime",
+        "TableName": "EscalationRule",
+        "TypeName": "EscalationTime",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "1d4485b5-96a6-4f22-9aeb-38cff76c671b",
+        "Name": "EscalationType",
+        "TableName": "EscalationRule",
+        "TypeName": "EscalationType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "ffa1e131-2944-4edd-80c3-85e7e94270ab",
+        "Name": "Level",
+        "TableName": "EscalationRule",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "8b6d64c4-447d-4ea1-aac4-0ace132cc307",
+        "Name": "OrderIndex",
+        "TableName": "EscalationRule",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "418746a8-c5f5-401e-ace0-5bfbebc0b676",
+        "Name": "SlaPolicyId",
+        "MasterTable": "SM_SLAPolicies"
+      },
+      {
+        "Id": "61f4f3e0-28fd-409a-9630-2d8201779811",
+        "Name": "NotificationId",
+        "MasterTable": "Core_Notifications"
+      }
+    ]
+  },
+  {
+    "Id": "e8072b03-076a-4d76-814a-c7729f692d52",
+    "ClassName": "SLAPolicy",
+    "TableName": "SM_SLAPolicies",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "9f6e95db-30e4-4473-ad91-cf8dd0dd5541",
+        "Name": "Description",
+        "TableName": "SLAPolicy",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "bd5a05f8-4696-4740-9c27-17c8cce10549",
+        "Name": "Name",
+        "TableName": "SLAPolicy",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "5faef0ea-54db-4d6d-90d2-46889414f4d3",
+    "ClassName": "SLATarget",
+    "TableName": "SM_SLATargets",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "2f69d86d-185f-44ac-bdfc-230f70b60976",
+        "Name": "EscalationEnabled",
+        "TableName": "SLATarget",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "166dd63b-ff4d-4128-b628-84b1532b0c5d",
+        "Name": "OperationalHours",
+        "TableName": "SLATarget",
+        "TypeName": "SLATargetOperationalHours",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "55632f54-05b5-4a29-93cb-7b38c82b6cf8",
+        "Name": "Priority",
+        "TableName": "SLATarget",
+        "TypeName": "SLATargetPriority",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "3851c506-cc90-4d7c-9137-c817c31f5e62",
+        "Name": "ResolutionTimeTicks",
+        "TableName": "SLATarget",
+        "TypeName": "long",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "59165a5c-cbf8-409c-8e17-c8125c8d5ae9",
+        "Name": "ResponseTimeTicks",
+        "TableName": "SLATarget",
+        "TypeName": "long",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "7bb59631-ecfb-4a3e-9a4d-945f0fb0e2bc",
+        "Name": "SlaPolicyId",
+        "MasterTable": "SM_SLAPolicies"
+      }
+    ]
+  }
+]

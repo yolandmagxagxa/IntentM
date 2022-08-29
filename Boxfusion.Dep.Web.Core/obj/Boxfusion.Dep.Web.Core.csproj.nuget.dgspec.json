@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yolandmagxagxa\\source\\repos\\DEP\\Boxfusion.Dep\\Boxfusion.Dep.Web.Core\\Boxfusion.Dep.Web.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yolandmagxagxa\\source\\repos\\DEP\\Boxfusion.Dep\\Boxfusion.Dep.Web.Core\\Boxfusion.Dep.Web.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yolandmagxagxa\\source\\repos\\DEP\\Boxfusion.Dep\\Boxfusion.Dep.Web.Core\\Boxfusion.Dep.Web.Core.csproj",
+        "projectName": "Boxfusion.Dep.Web.Core",
+        "projectPath": "C:\\Users\\Yolandmagxagxa\\source\\repos\\DEP\\Boxfusion.Dep\\Boxfusion.Dep.Web.Core\\Boxfusion.Dep.Web.Core.csproj",
+        "packagesPath": "C:\\Users\\Yolandmagxagxa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yolandmagxagxa\\source\\repos\\DEP\\Boxfusion.Dep\\Boxfusion.Dep.Web.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yolandmagxagxa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.boxfusion.co.za/api/v2/": {},
+          "https://pkgs.dev.azure.com/boxfusion/_packaging/nuget.boxfusion.co.za/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Yolandmagxagxa\\source\\repos\\DEP\\Boxfusion.Dep\\Boxfusion.Dep\\Boxfusion.Dep.csproj": {
+                "projectPath": "C:\\Users\\Yolandmagxagxa\\source\\repos\\DEP\\Boxfusion.Dep\\Boxfusion.Dep\\Boxfusion.Dep.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Abp.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Abp.ZeroCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Shesha.Application": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.AzureAD": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Core": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Elmah": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Firebase": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Import": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Ldap": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.NHibernate": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Scheduler": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Sms.BulkSms": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Sms.Clickatell": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Sms.SmsPortal": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Sms.Xml2Sms": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Web.Controls": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Shesha.Web.FormsDesigner": {
+              "target": "Package",
+              "version": "[0.3.107, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

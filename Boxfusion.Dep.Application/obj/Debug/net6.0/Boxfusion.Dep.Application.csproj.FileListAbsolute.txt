@@ -1,0 +1,12 @@
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\bin\Debug\net6.0\Boxfusion.Dep.Application.deps.json
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\bin\Debug\net6.0\Boxfusion.Dep.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\bin\Debug\net6.0\Boxfusion.Dep.Application.pdb
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\Boxfusion.Dep.Application.csproj.AssemblyReference.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\Boxfusion.Dep.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\Boxfusion.Dep.Application.AssemblyInfoInputs.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\Boxfusion.Dep.Application.AssemblyInfo.cs
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\Boxfusion.Dep.Application.csproj.CoreCompileInputs.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\Boxfusion.Dep.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\refint\Boxfusion.Dep.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\Boxfusion.Dep.Application.pdb
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.Dep.Application\obj\Debug\net6.0\ref\Boxfusion.Dep.Application.dll

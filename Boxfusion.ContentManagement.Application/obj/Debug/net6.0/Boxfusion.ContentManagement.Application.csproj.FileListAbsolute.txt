@@ -1,0 +1,12 @@
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\bin\Debug\net6.0\Boxfusion.ContentManagement.Application.deps.json
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\bin\Debug\net6.0\Boxfusion.ContentManagement.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\bin\Debug\net6.0\Boxfusion.ContentManagement.Application.pdb
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\Boxfusion.ContentManagement.Application.csproj.AssemblyReference.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\Boxfusion.ContentManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\Boxfusion.ContentManagement.Application.AssemblyInfoInputs.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\Boxfusion.ContentManagement.Application.AssemblyInfo.cs
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\Boxfusion.ContentManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\Boxfusion.ContentManagement.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\refint\Boxfusion.ContentManagement.Application.dll
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\Boxfusion.ContentManagement.Application.pdb
+C:\Users\Yolandmagxagxa\source\repos\DEP\Boxfusion.Dep\Boxfusion.ContentManagement.Application\obj\Debug\net6.0\ref\Boxfusion.ContentManagement.Application.dll

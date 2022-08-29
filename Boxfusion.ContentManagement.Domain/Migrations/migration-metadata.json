@@ -1,0 +1,335 @@
+[
+  {
+    "Id": "2cc5ef39-d54c-4991-802b-be3f9e7ce48d",
+    "ClassName": "ContentAppointment",
+    "TableName": "CM_ContentAppointments",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "13438fff-2f99-43a2-922f-d6aa0e84f7b9",
+        "Name": "Role",
+        "TableName": "ContentAppointment",
+        "TypeName": "Role",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "0ce9c8fe-0778-4538-9523-a0cd263ead22",
+        "Name": "PersonId",
+        "MasterTable": "Core_Persons"
+      },
+      {
+        "Id": "07ed2ffa-2719-4bb4-92cf-d120a46645a4",
+        "Name": "OwnerId",
+        "MasterTable": "CM_ContentItemBases"
+      }
+    ]
+  },
+  {
+    "Id": "5adae54c-8f9d-412b-b426-d181160b03c0",
+    "ClassName": "ContentFolder",
+    "TableName": "CM_ContentFolders",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "8dba20e3-5855-4dc2-8b12-8c442f855f28",
+        "Name": "DatePublished",
+        "TableName": "ContentFolder",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "f51610dd-05bf-4a55-bd4d-2b62002dac32",
+        "Name": "AllowSubFolders",
+        "TableName": "ContentFolder",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "da9bc02b-ef60-412d-be15-e3e5f417c74d",
+    "ClassName": "ContentItemBase",
+    "TableName": "CM_ContentItemBases",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "42db0676-01b4-4930-aff9-c0bbc998cdf7",
+        "Name": "ImageIconUrl",
+        "TableName": "ContentItemBase",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "ac6dbb13-c2fb-48f2-be5c-04edb681a53f",
+        "Name": "AllowLiking",
+        "TableName": "ContentItemBase",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "292c47a5-3721-4f88-b0d1-200b3b305e89",
+        "Name": "AllowCommenting",
+        "TableName": "ContentItemBase",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "a2f69dbb-c114-4e30-b7c7-fd87954d6989",
+        "Name": "ValidFrom",
+        "TableName": "ContentItemBase",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "e269148d-e4b4-4a6e-afd4-4d2883aff155",
+        "Name": "ValidTo",
+        "TableName": "ContentItemBase",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "9c6df4a8-9403-4a0c-9f5f-77693e0a318b",
+        "Name": "CanExport",
+        "TableName": "ContentItemBase",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "e0789964-a4bd-439b-adfc-38a131a2775a",
+        "Name": "PublishedDate",
+        "TableName": "ContentItemBase",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "94b86ea6-84cf-45a5-90f6-35daed05abc4",
+        "Name": "OrderIndex",
+        "TableName": "ContentItemBase",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "2078d2a9-482c-408a-9e66-9e7193ce4de4",
+        "Name": "Icon",
+        "TableName": "ContentItemBase",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "b9b26815-9142-4fa2-ad2c-4d08983c0d6a",
+        "Name": "Name",
+        "TableName": "ContentItemBase",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "7a444d11-4e35-43b9-91de-619598fa055a",
+        "Name": "Description",
+        "TableName": "ContentItemBase",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "2e05213c-f2b4-4dba-984a-1220db8c5a99",
+        "Name": "AllowableContentType",
+        "TableName": "ContentItemBase",
+        "TypeName": "AllowableContentType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "fa2d7735-9b9f-4511-8044-5abe68b5982b",
+        "Name": "OrderingMethod",
+        "TableName": "ContentItemBase",
+        "TypeName": "OrderMethod",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "3c19ec31-d313-49a2-b19e-54cdd8a3ac3c",
+        "Name": "Flags",
+        "TableName": "ContentItemBase",
+        "TypeName": "Flag",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "da546191-ffad-4ef4-8953-0bbbf94a71a7",
+        "Name": "PublicationStatus",
+        "TableName": "ContentItemBase",
+        "TypeName": "PublicationStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "5eabd5f7-9c2e-42a5-93bb-4f08c7bd8d6a",
+        "Name": "attribute",
+        "TableName": "ContentItemBase",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "e189ea57-8b51-45ae-8dfc-3f139b0e93d3",
+    "ClassName": "ContentItem",
+    "TableName": "CM_ContentItems",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "92770c17-c673-40ea-9302-a60658ad2fe7",
+        "Name": "ContentUrl",
+        "TableName": "ContentItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "0370d5e7-2de0-4e08-b115-cafee7773356",
+        "Name": "WebPage",
+        "TableName": "ContentItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "f45c7e06-a4e7-4762-95ce-b0f1d377baa2",
+        "Name": "PreviewImageId",
+        "MasterTable": "Core_StoredFiles"
+      },
+      {
+        "Id": "3ad7f031-ca39-47ed-9b58-d7c0fd31ab4f",
+        "Name": "ContentId",
+        "MasterTable": "Core_StoredFiles"
+      }
+    ]
+  },
+  {
+    "Id": "929e25a1-c5c0-4fa1-825f-0c5de9a8dd77",
+    "ClassName": "ContentPermission",
+    "TableName": "CM_ContentPermissions",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "4ae37ef8-fbfb-4300-ba8c-6131fe119ecb",
+        "Name": "OrderIndex",
+        "TableName": "ContentPermission",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "f0256cae-d9e1-46de-822b-6f8115dd81a0",
+        "Name": "Type",
+        "TableName": "ContentPermission",
+        "TypeName": "PermissionType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "4a1bf4e1-04dc-4914-9244-7dc3717dd377",
+        "Name": "Permission",
+        "TableName": "ContentPermission",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "993fb087-c3ab-4861-94b9-73eb15cbdc0f",
+        "Name": "OrganisationId",
+        "MasterTable": "Core_Organisations"
+      },
+      {
+        "Id": "a24562c7-065a-42fc-acad-78a9ede3ffd9",
+        "Name": "PersonId",
+        "MasterTable": "Core_Persons"
+      },
+      {
+        "Id": "d9f678f4-fc05-422d-99f4-8cb1d5f2d6f4",
+        "Name": "ContentId",
+        "MasterTable": "CM_ContentItemBases"
+      }
+    ]
+  }
+]

@@ -1,0 +1,324 @@
+[
+  {
+    "Id": "74d9491e-4cea-4f37-aff9-d4376519a26d",
+    "ClassName": "Contact",
+    "TableName": "DEP_Contacts",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "b15cbc79-8a53-440b-bc8d-71d318170b2a",
+        "Name": "TwitterHandle",
+        "TableName": "Contact",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "d4697acb-6426-4ca7-b848-98a546262da5",
+        "Name": "FacebookHandle",
+        "TableName": "Contact",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "8d47f017-d96d-41de-a0fc-36df1ed10587",
+        "Name": "InstaHandle",
+        "TableName": "Contact",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "b21c95fb-b959-42dd-9dc1-65a9f095d094",
+        "Name": "LinkedInHandle",
+        "TableName": "Contact",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "95a6d6f3-0db1-4eb5-8107-35ab937aac6e",
+        "Name": "Description",
+        "TableName": "Contact",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "c14958e0-f1f0-4dc2-9841-18900af33140",
+        "Name": "JobTitle",
+        "TableName": "Contact",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "c32906e8-8b67-4b7f-bb22-560aaa5f2221",
+        "Name": "OrderIndex",
+        "TableName": "Contact",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "915b0ec1-4650-47f2-95fe-6cc9b033a6a2",
+        "Name": "Flags",
+        "TableName": "Contact",
+        "TypeName": "ContactFlags",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "4190c4ce-226d-44c2-a06d-38c4184add34",
+        "Name": "PersonId",
+        "MasterTable": "Core_Persons"
+      }
+    ]
+  },
+  {
+    "Id": "24aa7cd5-fe3b-445b-ba00-094f813f8269",
+    "ClassName": "EventPresenter",
+    "TableName": "DEP_EventPresenters",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "20a4c892-0229-4b3e-9fd9-766c11e7c90b",
+        "Name": "Description",
+        "TableName": "EventPresenter",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "fc0a0339-6a61-4075-afc6-f3d47384498d",
+        "Name": "Time",
+        "TableName": "EventPresenter",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "ffeb1859-1f07-4131-9ff9-60e337685027",
+        "Name": "EventId",
+        "MasterTable": "DEP_Events"
+      },
+      {
+        "Id": "e2c83bb8-c869-443f-9264-2ba9c8fe6f92",
+        "Name": "PersonId",
+        "MasterTable": "Core_Persons"
+      }
+    ]
+  },
+  {
+    "Id": "d5677f67-60a8-4400-8156-86c589f0436f",
+    "ClassName": "Event",
+    "TableName": "DEP_Events",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "5518e46f-5279-40ae-a0a3-43b6f99c450e",
+        "Name": "StartDate",
+        "TableName": "Event",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "37e5fbec-8cf0-4843-a8de-7284aab406a1",
+        "Name": "EndDate",
+        "TableName": "Event",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "96d3ca27-8ce8-4c4e-ac51-dd02c5f9a534",
+        "Name": "Address",
+        "TableName": "Event",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "42b4e91f-1584-4717-9ab6-b724b5a7d343",
+        "Name": "EventLink",
+        "TableName": "Event",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "48d15fe4-f195-43a4-a0d7-77368525de83",
+        "Name": "Venue",
+        "TableName": "Event",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "5ccffe2f-a5c4-4d12-8f2e-19c3b74e44fb",
+        "Name": "Agenda",
+        "TableName": "Event",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "3ecdd416-a646-443b-b241-afa4c194f423",
+        "Name": "Name",
+        "TableName": "Event",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "6e9fca88-808c-474a-b3d7-367953a767be",
+        "Name": "Description",
+        "TableName": "Event",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "1c0961c6-7d58-4d9b-ae3b-3971a34be100",
+        "Name": "Lat",
+        "TableName": "Event",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "67c49629-cc5f-47c0-8553-e40d5b4aa346",
+        "Name": "Long",
+        "TableName": "Event",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "2f492291-be6a-4fdd-9f95-526b9f2e8a8f",
+        "Name": "Category",
+        "TableName": "Event",
+        "TypeName": "EventCategory",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "1f85360e-7bda-41e3-a321-f1fca8705909",
+        "Name": "EventImageId",
+        "MasterTable": "Core_StoredFiles"
+      },
+      {
+        "Id": "b5b83a95-b0bf-4d28-b336-25a643af7cd2",
+        "Name": "AgendaFileId",
+        "MasterTable": "Core_StoredFiles"
+      }
+    ]
+  },
+  {
+    "Id": "4ae3b73e-de2c-401b-85b0-4791e7eecb18",
+    "ClassName": "FAQ",
+    "TableName": "DEP_FAQs",
+    "KeyType": "guid",
+    "IsFullAudit": true,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "108d3ba0-d76a-4f5b-b65b-c1b0cbf13ac9",
+        "Name": "Question",
+        "TableName": "FAQ",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "e187515e-13d3-47d2-aee0-cbc737647252",
+        "Name": "Answer",
+        "TableName": "FAQ",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "95ef055b-0364-47f1-8931-922b3034dda1",
+        "Name": "OrderIndex",
+        "TableName": "FAQ",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "3ae0dde5-1225-416b-85c2-76f7ae7b35cc",
+        "Name": "Category",
+        "TableName": "FAQ",
+        "TypeName": "FAQCategory",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  }
+]

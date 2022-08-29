@@ -1,0 +1,94 @@
+[
+  {
+    "Id": "9c940571-57a2-4a67-9154-6af81fb46240",
+    "EnumName": "Role",
+    "Comment": null,
+    "EnumLiterals": [
+      {
+        "Id": "1b75e504-993b-451e-bfc2-f6bb79a58836",
+        "Name": "Approver",
+        "Value": "1",
+        "Comment": null,
+        "Index": 1,
+        "EnumName": "Role"
+      },
+      {
+        "Id": "a92df921-e03d-42ae-ad58-ad46fd7289af",
+        "Name": "Admin",
+        "Value": "2",
+        "Comment": null,
+        "Index": 2,
+        "EnumName": "Role"
+      },
+      {
+        "Id": "df2fd557-0b67-4457-bd11-e1425a98d6e9",
+        "Name": "Both",
+        "Value": "3",
+        "Comment": null,
+        "Index": 3,
+        "EnumName": "Role"
+      }
+    ]
+  },
+  {
+    "Id": "1478b2f2-11d1-4502-afc6-acced3421f78",
+    "EnumName": "AllowableContentType",
+    "Comment": null,
+    "EnumLiterals": []
+  },
+  {
+    "Id": "493aef0e-1ddb-4179-b129-41150817e198",
+    "EnumName": "Flag",
+    "Comment": null,
+    "EnumLiterals": []
+  },
+  {
+    "Id": "a695b732-22d5-45e5-8ef5-73e1c1aeebd2",
+    "EnumName": "OrderMethod",
+    "Comment": null,
+    "EnumLiterals": []
+  },
+  {
+    "Id": "3092c731-a648-4729-90ab-9f125b6450a4",
+    "EnumName": "PermittedUserFlags",
+    "Comment": null,
+    "EnumLiterals": []
+  },
+  {
+    "Id": "7c573515-6ce8-4ec4-b627-af2fb69267a3",
+    "EnumName": "PublicationStatus",
+    "Comment": null,
+    "EnumLiterals": []
+  },
+  {
+    "Id": "a5671ff5-fc7f-4234-8c02-8f5203d64ba2",
+    "EnumName": "PermissionType",
+    "Comment": null,
+    "EnumLiterals": [
+      {
+        "Id": "1eed57f2-feb8-49fc-bc11-4d205a650702",
+        "Name": "Person",
+        "Value": "1",
+        "Comment": null,
+        "Index": 1,
+        "EnumName": "PermissionType"
+      },
+      {
+        "Id": "63034120-38ce-4f98-bead-213eaae52539",
+        "Name": "Organisation",
+        "Value": "2",
+        "Comment": null,
+        "Index": 2,
+        "EnumName": "PermissionType"
+      },
+      {
+        "Id": "aee26af6-8648-48c3-94de-8e1d296b88f2",
+        "Name": "Role",
+        "Value": "3",
+        "Comment": null,
+        "Index": 3,
+        "EnumName": "PermissionType"
+      }
+    ]
+  }
+]
