@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="70ea3de8-ebc8-4542-bc58-658e3ae98c34" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>ContentFolders</name>
+  <display>ContentFolders</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</parentFolderId>
+  <packageId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</packageId>
+  <packageName>Boxfusion.ContentManagement</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

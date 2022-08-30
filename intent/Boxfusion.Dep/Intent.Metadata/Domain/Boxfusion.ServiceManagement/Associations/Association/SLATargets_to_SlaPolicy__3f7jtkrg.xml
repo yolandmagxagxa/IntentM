@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="7bb59631-ecfb-4a3e-9a4d-945f0fb0e2bc">
+  <sourceEnd id="36d6c253-ec0c-4c6d-813d-0137afde31a4" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>SLATargets</name>
+    <display>SLATargets: SLATarget[*]</display>
+    <order>5</order>
+    <typeReference id="42744fd1-1763-4d71-8359-4d7d5a173af1">
+      <typeId>5faef0ea-54db-4d6d-90d2-46889414f4d3</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="7bb59631-ecfb-4a3e-9a4d-945f0fb0e2bc" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>SlaPolicy</name>
+    <display>SlaPolicy: SLAPolicy</display>
+    <order>5</order>
+    <typeReference id="1ab57848-81e5-4499-b8e0-fa5f24e439d0">
+      <typeId>e8072b03-076a-4d76-814a-c7729f692d52</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

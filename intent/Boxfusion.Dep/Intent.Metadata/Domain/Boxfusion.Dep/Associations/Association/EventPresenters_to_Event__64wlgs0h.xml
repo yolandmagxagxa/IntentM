@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="ffeb1859-1f07-4131-9ff9-60e337685027">
+  <sourceEnd id="aa87619d-ede6-4c91-baf9-9952cc19b8b1" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>EventPresenters</name>
+    <display>EventPresenters: EventPresenter[*]</display>
+    <order>13</order>
+    <typeReference id="271dec22-309e-4ce9-8b07-d3cbd47ce0b5">
+      <typeId>24aa7cd5-fe3b-445b-ba00-094f813f8269</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.Dep</typePackageName>
+      <typePackageId>f7adeae6-ee51-4270-83fb-2b44a50da39b</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="ffeb1859-1f07-4131-9ff9-60e337685027" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Event</name>
+    <display>Event: Event</display>
+    <order>2</order>
+    <typeReference id="1f3b3d6f-257c-4670-8acf-20adfae6f5ba">
+      <typeId>d5677f67-60a8-4400-8156-86c589f0436f</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.Dep</typePackageName>
+      <typePackageId>f7adeae6-ee51-4270-83fb-2b44a50da39b</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

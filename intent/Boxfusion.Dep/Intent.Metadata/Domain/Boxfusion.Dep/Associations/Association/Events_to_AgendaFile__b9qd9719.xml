@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="b5b83a95-b0bf-4d28-b336-25a643af7cd2">
+  <sourceEnd id="3968a116-23ae-4845-9907-5127442aa6bb" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Events</name>
+    <display>Events: Event[*]</display>
+    <order>13</order>
+    <typeReference id="b0a52048-bb98-4ddc-888b-81e1e9e097a0">
+      <typeId>d5677f67-60a8-4400-8156-86c589f0436f</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.Dep</typePackageName>
+      <typePackageId>f7adeae6-ee51-4270-83fb-2b44a50da39b</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="b5b83a95-b0bf-4d28-b336-25a643af7cd2" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>AgendaFile</name>
+    <display>AgendaFile: StoredFile</display>
+    <order>12</order>
+    <typeReference id="ccd4e890-fa59-4b82-b8ae-614a2bd67314">
+      <typeId>a84572a0-9354-4dc5-84c6-df6d496a7790</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Core</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="418746a8-c5f5-401e-ace0-5bfbebc0b676">
+  <sourceEnd id="cd32af2d-4e91-492e-bd86-7a8aea2042f2" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>EscalationRules</name>
+    <display>EscalationRules: EscalationRule[*]</display>
+    <order>4</order>
+    <typeReference id="fe59709f-a0e8-49b4-a02f-18a13a873f7b">
+      <typeId>dac37337-bb5c-40e4-b6b7-1a1b859f1541</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="418746a8-c5f5-401e-ace0-5bfbebc0b676" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>SlaPolicy</name>
+    <display>SlaPolicy: SLAPolicy</display>
+    <order>5</order>
+    <typeReference id="876bd27d-29f5-4468-bc5d-b62f1dfbad59">
+      <typeId>e8072b03-076a-4d76-814a-c7729f692d52</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="ef3b2507-b3b5-4a30-9388-74f625bf5bcf">
+  <sourceEnd id="e8632fec-62de-46f5-9a1a-f682bce5a66f" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>CaseRoutings</name>
+    <display>CaseRoutings: CaseRouting[*]</display>
+    <order>0</order>
+    <typeReference id="701d57a1-cac0-4dac-90c3-76e5add28e7c">
+      <typeId>09a1fc83-0714-433d-8444-a19942b49fe3</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="ef3b2507-b3b5-4a30-9388-74f625bf5bcf" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>DefaultOrganisationAssigned</name>
+    <display>DefaultOrganisationAssigned: Organisation</display>
+    <order>11</order>
+    <typeReference id="cc62ee46-6708-44d4-8dc4-4ad3b70a401a">
+      <typeId>03ebe928-d320-4e1f-990e-028fb41d9988</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Core</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

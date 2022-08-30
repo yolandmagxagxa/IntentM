@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="372c021c-a83c-44dd-b12d-8322cd886705" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>Enums</name>
+  <display>Enums</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>fb8b1c57-4aff-49a4-b72b-5a2f1d8670be</parentFolderId>
+  <packageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</packageId>
+  <packageName>Boxfusion.ServiceManagement</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

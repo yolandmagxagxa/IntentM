@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="bc6847e0-4468-4c7b-9896-6b68c6739d66">
+  <sourceEnd id="e1e7708e-8a91-49a8-8092-35773bb6df62" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Cases</name>
+    <display>Cases: Case[*]</display>
+    <order>6</order>
+    <typeReference id="a36efbc8-5a5b-4fc9-bd9a-3d0d54f6f5a3">
+      <typeId>06d54bb4-1158-4b48-bc55-aec47498c11f</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="bc6847e0-4468-4c7b-9896-6b68c6739d66" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>PersonAssigned</name>
+    <display>PersonAssigned: Person</display>
+    <order>33</order>
+    <typeReference id="413d681e-e4ad-4c4a-944d-f6ecfa117904">
+      <typeId>0c5ea135-725f-4651-b2f6-d5964e5fe253</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Core</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

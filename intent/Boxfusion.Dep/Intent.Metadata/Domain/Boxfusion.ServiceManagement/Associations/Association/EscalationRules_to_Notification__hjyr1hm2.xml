@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="61f4f3e0-28fd-409a-9630-2d8201779811">
+  <sourceEnd id="ca866e50-7d3c-4634-85d9-e63805707648" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>EscalationRules</name>
+    <display>EscalationRules: EscalationRule[*]</display>
+    <order>0</order>
+    <typeReference id="d4b42154-51c9-49ce-a063-60974b5dcda2">
+      <typeId>dac37337-bb5c-40e4-b6b7-1a1b859f1541</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="61f4f3e0-28fd-409a-9630-2d8201779811" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Notification</name>
+    <display>Notification: Notification</display>
+    <order>6</order>
+    <typeReference id="85559ba8-8f91-46f7-8585-d711b5e91d44">
+      <typeId>0c031f74-0763-4706-aa7a-6a79dff0afca</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Core</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

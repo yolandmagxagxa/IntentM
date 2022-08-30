@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="a24562c7-065a-42fc-acad-78a9ede3ffd9">
+  <sourceEnd id="623bb467-3d35-49c8-8a06-9a2634af8014" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>ContentPermissions</name>
+    <display>ContentPermissions: ContentPermission[*]</display>
+    <order>24</order>
+    <typeReference id="c77f698b-a56a-4f71-8438-61ffddbd462b">
+      <typeId>929e25a1-c5c0-4fa1-825f-0c5de9a8dd77</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ContentManagement</typePackageName>
+      <typePackageId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="a24562c7-065a-42fc-acad-78a9ede3ffd9" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Person</name>
+    <display>Person: Person</display>
+    <order>4</order>
+    <typeReference id="7d115ab5-6243-4a5d-8468-9de1deb6d8ce">
+      <typeId>0c5ea135-725f-4651-b2f6-d5964e5fe253</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Core</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

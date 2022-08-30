@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="734092fb-e2e1-452f-ad15-066be4a501a1">
+  <sourceEnd id="4b7ec4db-b446-4541-9109-3dba87936b5f" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Cases</name>
+    <display>Cases: Case[*]</display>
+    <order>1</order>
+    <typeReference id="ec5a5a60-51f0-4901-8b68-257816548810">
+      <typeId>06d54bb4-1158-4b48-bc55-aec47498c11f</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="734092fb-e2e1-452f-ad15-066be4a501a1" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Facility</name>
+    <display>Facility: Facility</display>
+    <order>30</order>
+    <typeReference id="0aeb3dbb-a997-4e55-8e9c-a31b3f7efe6c">
+      <typeId>426f761d-d21a-4085-8722-cd3cf0f9dd69</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Core</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

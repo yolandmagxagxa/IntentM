@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="8da93af3-94c7-46ee-b3f0-9b697a18972a" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Swagger</name>
+  <display>Swagger</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>acd1809f-d9f9-449f-bba0-d76c79d682d4</parentFolderId>
+  <packageId>808bd628-632c-410a-ab15-7127eb147ec9</packageId>
+  <packageName>Boxfusion.Dep</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="4cb6b3c4-ffdd-4341-ac38-2a091383ba9d" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Boxfusion.Modules.Web.Startup.Swagger.AbpAppServiceApiVersionSpecification</name>
+      <display>Boxfusion.Modules.Web.Startup.Swagger.AbpAppServiceApiVersionSpecification</display>
+      <externalReference>Boxfusion.Modules.Web.Startup</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>8da93af3-94c7-46ee-b3f0-9b697a18972a</parentFolderId>
+      <packageId>808bd628-632c-410a-ab15-7127eb147ec9</packageId>
+      <packageName>Boxfusion.Dep</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="4a301839-6973-4d24-b13c-55bfde308425" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Boxfusion.Modules.Web.Startup.Swagger.ConfigureSwaggerOptions</name>
+      <display>Boxfusion.Modules.Web.Startup.Swagger.ConfigureSwaggerOptions</display>
+      <externalReference>Boxfusion.Modules.Web.Startup</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>8da93af3-94c7-46ee-b3f0-9b697a18972a</parentFolderId>
+      <packageId>808bd628-632c-410a-ab15-7127eb147ec9</packageId>
+      <packageName>Boxfusion.Dep</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="67f7ac76-1f25-49b0-a547-c6fc7a27ce9f" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Boxfusion.Modules.Web.Startup.Swagger.SwaggerDefaultValues</name>
+      <display>Boxfusion.Modules.Web.Startup.Swagger.SwaggerDefaultValues</display>
+      <externalReference>Boxfusion.Modules.Web.Startup</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>8da93af3-94c7-46ee-b3f0-9b697a18972a</parentFolderId>
+      <packageId>808bd628-632c-410a-ab15-7127eb147ec9</packageId>
+      <packageName>Boxfusion.Dep</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

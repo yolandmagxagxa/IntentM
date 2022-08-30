@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="4190c4ce-226d-44c2-a06d-38c4184add34">
+  <sourceEnd id="53f17e0a-e036-4367-9b72-3435c1952899" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Contacts</name>
+    <display>Contacts: Contact[*]</display>
+    <order>21</order>
+    <typeReference id="2f952091-da65-4b1b-bda5-831b0a951188">
+      <typeId>74d9491e-4cea-4f37-aff9-d4376519a26d</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.Dep</typePackageName>
+      <typePackageId>f7adeae6-ee51-4270-83fb-2b44a50da39b</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="4190c4ce-226d-44c2-a06d-38c4184add34" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Person</name>
+    <display>Person: Person</display>
+    <order>8</order>
+    <typeReference id="c441213a-eb76-4fb5-9049-d0b27cdcf610">
+      <typeId>0c5ea135-725f-4651-b2f6-d5964e5fe253</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Core</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

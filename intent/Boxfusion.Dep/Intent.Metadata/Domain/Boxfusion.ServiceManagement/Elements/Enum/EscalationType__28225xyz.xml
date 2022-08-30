@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="a014b420-4873-42b9-83b5-60db891267f8" type="Enum" typeId="85fba0e9-9161-4c85-a603-a229ef312beb">
+  <name>EscalationType</name>
+  <display>EscalationType</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>372c021c-a83c-44dd-b12d-8322cd886705</parentFolderId>
+  <packageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</packageId>
+  <packageName>Boxfusion.ServiceManagement</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="d5e8dd12-b371-4fb6-b1ff-b403005b519b" name="Enum Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+      <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+      <properties>
+        <property name="3cacdd96-327f-46df-abdd-c2759c5106fa" display="DataDriven" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

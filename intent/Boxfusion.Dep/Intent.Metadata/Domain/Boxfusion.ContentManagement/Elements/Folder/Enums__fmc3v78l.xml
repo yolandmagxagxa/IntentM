@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="587222c5-3da1-490d-aac1-0aebd077fa66" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>Enums</name>
+  <display>Enums</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>0af32701-a172-4bdd-8019-71722cafbb88</parentFolderId>
+  <packageId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</packageId>
+  <packageName>Boxfusion.ContentManagement</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

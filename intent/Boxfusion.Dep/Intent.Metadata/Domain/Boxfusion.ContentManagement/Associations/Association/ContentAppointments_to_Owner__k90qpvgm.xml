@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="07ed2ffa-2719-4bb4-92cf-d120a46645a4">
+  <sourceEnd id="0637645d-6f89-4719-a10d-fe554fa0dd91" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>ContentAppointments</name>
+    <display>ContentAppointments: ContentAppointment[*]</display>
+    <order>16</order>
+    <typeReference id="f6c452b0-82c1-4544-a3a2-1399bb6a7e85">
+      <typeId>2cc5ef39-d54c-4991-802b-be3f9e7ce48d</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ContentManagement</typePackageName>
+      <typePackageId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="07ed2ffa-2719-4bb4-92cf-d120a46645a4" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Owner</name>
+    <display>Owner: ContentItemBase</display>
+    <order>2</order>
+    <typeReference id="fcd79f46-2093-4090-8578-19d312b136e2">
+      <typeId>da9bc02b-ef60-412d-be15-e3e5f417c74d</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ContentManagement</typePackageName>
+      <typePackageId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

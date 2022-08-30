@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="dade617f-d920-4079-8c08-19f29cd903dc">
+  <sourceEnd id="b38b6c5e-372a-43da-9dcc-86f97100b322" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Cases</name>
+    <display>Cases: Case[*]</display>
+    <order>21</order>
+    <typeReference id="c674889e-f50b-4ef3-ae4b-80e040cd5294">
+      <typeId>06d54bb4-1158-4b48-bc55-aec47498c11f</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="dade617f-d920-4079-8c08-19f29cd903dc" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>CaseType</name>
+    <display>CaseType: CaseType</display>
+    <order>32</order>
+    <typeReference id="7df4e09f-5dca-4102-b5d3-a0c52127a4da">
+      <typeId>16714fe8-55ef-45c3-80db-bfda53665fc2</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

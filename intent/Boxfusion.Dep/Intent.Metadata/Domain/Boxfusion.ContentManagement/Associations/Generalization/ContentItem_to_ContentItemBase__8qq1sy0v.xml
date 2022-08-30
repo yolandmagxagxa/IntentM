@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="1f8c5a7e-6082-4617-816b-8bd2efc828eb">
+  <sourceEnd id="f092e73e-f7d9-46f9-af48-061c44cf3613" type="Generalization Source End" typeId="8190bf43-222c-4b53-8a44-14626efe3574">
+    <name>ContentItem</name>
+    <display>ContentItem: ContentItem</display>
+    <order>18</order>
+    <typeReference id="f205a357-41bc-419c-9731-fa96e959f40b">
+      <typeId>e189ea57-8b51-45ae-8dfc-3f139b0e93d3</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ContentManagement</typePackageName>
+      <typePackageId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="1f8c5a7e-6082-4617-816b-8bd2efc828eb" type="Generalization Target End" typeId="4686cc1d-b4d8-4b99-b45b-f77bd5496946">
+    <name>ContentItemBase</name>
+    <display>ContentItemBase: ContentItemBase</display>
+    <order>4</order>
+    <typeReference id="b1dd28b0-9280-489e-85cc-7932669fb785">
+      <typeId>da9bc02b-ef60-412d-be15-e3e5f417c74d</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ContentManagement</typePackageName>
+      <typePackageId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Generalization</associationType>
+  <associationTypeId>5de35973-3ac7-4e65-b48c-385605aec561</associationTypeId>
+  <stereotypes />
+</association>

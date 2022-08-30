@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="37b7eaa8-00fe-4d6e-a332-53ddfbf19b2b">
+  <sourceEnd id="1ec9f21d-b7f0-4dc1-aa8a-bb7e2291f234" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Cases</name>
+    <display>Cases: Case[*]</display>
+    <order>15</order>
+    <typeReference id="11f8a1e7-9abb-47ca-8ee2-98f8c60c3008">
+      <typeId>06d54bb4-1158-4b48-bc55-aec47498c11f</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="37b7eaa8-00fe-4d6e-a332-53ddfbf19b2b" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>CaseRouting</name>
+    <display>CaseRouting: CaseRouting</display>
+    <order>40</order>
+    <typeReference id="0352cbf3-1380-4ec2-9402-bf77ab9b9a12">
+      <typeId>09a1fc83-0714-433d-8444-a19942b49fe3</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ServiceManagement</typePackageName>
+      <typePackageId>4b03f303-10da-46cf-a94f-cbd7937b66bf</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

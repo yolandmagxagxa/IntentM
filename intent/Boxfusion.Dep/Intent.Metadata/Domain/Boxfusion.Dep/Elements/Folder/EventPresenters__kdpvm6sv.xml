@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="8d402008-008f-4378-b6dc-4e2c13e5baf7" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>EventPresenters</name>
+  <display>EventPresenters</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>f7adeae6-ee51-4270-83fb-2b44a50da39b</parentFolderId>
+  <packageId>f7adeae6-ee51-4270-83fb-2b44a50da39b</packageId>
+  <packageName>Boxfusion.Dep</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

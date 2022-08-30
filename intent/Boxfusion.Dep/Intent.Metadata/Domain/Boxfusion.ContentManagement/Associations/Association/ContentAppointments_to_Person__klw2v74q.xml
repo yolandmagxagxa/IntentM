@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="0ce9c8fe-0778-4538-9523-a0cd263ead22">
+  <sourceEnd id="2a1bc568-ff5c-4c83-a18c-4d7625d3c4de" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>ContentAppointments</name>
+    <display>ContentAppointments: ContentAppointment[*]</display>
+    <order>23</order>
+    <typeReference id="fe905f16-0ddf-4645-990e-871d758f037d">
+      <typeId>2cc5ef39-d54c-4991-802b-be3f9e7ce48d</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Boxfusion.ContentManagement</typePackageName>
+      <typePackageId>b3a6eff9-3147-4a21-b90b-91b9d4a0e02a</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="0ce9c8fe-0778-4538-9523-a0cd263ead22" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Person</name>
+    <display>Person: Person</display>
+    <order>1</order>
+    <typeReference id="6306e01b-6310-477f-8fc8-387d636d9516">
+      <typeId>0c5ea135-725f-4651-b2f6-d5964e5fe253</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Core</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>
